@@ -99,3 +99,10 @@
   font-weight: 900;
   margin-right: 0.5em;
 }
+
+.navbar-icon-github::before {
+  font-family: "Font Awesome 5 Brands";
+  content: '\f092';
+  font-weight: 400;
+  margin-right: 0.5rem;
+}

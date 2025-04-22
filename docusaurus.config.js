@@ -13,7 +13,7 @@ const config = {
   tagline: 'MANUAL DE USO DE ELEMENTOS',
   favicon: 'img/favicon.ico',
 
-  url: ' 925659047.facturalo.co',
+  url: 'https://925659047.facturalo.co',
   baseUrl: '/Docusaurus/',
 
   onBrokenLinks: 'throw',
@@ -26,6 +26,7 @@ const config = {
 
   presets: [
     [
+      
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -67,7 +68,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentación',
+            label: 'Tutorial',
            
           },
           {
@@ -77,7 +78,7 @@ const config = {
             
           },
           {
-            href: 'https://github.com/tu-usuario/tu-repo',
+            href: 'https://github.com/Gabrielmy35?tab=repositories',
             position: 'right',
             className: 'navbar-icon-github',
           },
@@ -88,17 +89,16 @@ const config = {
       footer: {
         style: 'dark',
         logo: {
-          alt: 'Logo Footer',
-          src: 'img/logo-footer.svg',
+          alt: 'Logo',
+          src: 'img/logo.png',
           href: '/',
-          width: 120,
+          width: 40,
         },
         links: [
           {
             title: 'Recursos',
             items: [
-              { label: 'Documentación', to: '/docs/intro' },
-              { label: 'API Reference', to: '/docs/api' }
+              { label: 'Tutoria', to: '/docs/intro' },
             ],
           },
           {
@@ -112,7 +112,10 @@ const config = {
             title: 'Más',
             items: [
               { label: 'Blog', to: '/blog' },
-              { label: 'GitHub', href: 'https://github.com/tu-usuario/tu-repo' }
+              { 
+                label: 'GitHub',
+                href: 'https://github.com/Gabrielmy35',
+              }
             ],
           },
         ],
