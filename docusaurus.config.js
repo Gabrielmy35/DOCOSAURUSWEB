@@ -9,12 +9,12 @@ const { themes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mi Sitio Personalizado',
-  tagline: 'Documentación técnica especializada',
+  title: 'OLA',
+  tagline: 'MANUAL DE USO DE ELEMENTOS',
   favicon: 'img/favicon.ico',
 
-  url: 'https://tudominio.com',
-  baseUrl: '/',
+  url: ' 925659047.facturalo.co',
+  baseUrl: '/Docusaurus/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -60,7 +60,7 @@ const config = {
         logo: {
           alt: 'Logo',
           src: 'img/logo.png',
-          width: 120,
+          width: 30,
         },
         items: [
           {
@@ -134,6 +134,13 @@ const config = {
         },
       },
     }),
+    stylesheets: [
+      {
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+        type: 'text/css',
+      },
+    ],
 };
+
 
 module.exports = config;

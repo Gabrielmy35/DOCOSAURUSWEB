@@ -22,3 +22,80 @@
 [data-theme='dark'] .purple-text {
   color: plum;
 }
+
+/* Icono para categoría Intro(house) */
+.Introduccion-category .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f015'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+/* Icono para ítem Intro Elemen (memo-circle-info) */
+.Introduccion-Inicio-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f05a'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+
+
+/* Ícono folder-minus para categoría Estructura */
+.Documentacion-category .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f07c'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+/* Ícono file-word para documento Estructura-doc */
+.Estructura-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f15b'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+/* Ícono para categoría */
+.Usos-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f815'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.consola-category .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f07c'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.Usos-consola-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f815'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.Responsive-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f5fd'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.Elementos-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f121'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.Herramientas-doc .menu__link::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f7d9'; 
+  font-weight: 900;
+  margin-right: 0.5em;
+}
